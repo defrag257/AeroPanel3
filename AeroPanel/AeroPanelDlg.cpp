@@ -52,7 +52,7 @@ CAeroPanelDlg::CAeroPanelDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 	bDwm = FALSE;
-	m_use_aero = FALSE;
+	m_use_aero = TRUE;
 	m_hotkey = 'Z';
 	m_trywin10 = TRUE;
 	m_prevtick = GetTickCount64();
@@ -262,12 +262,8 @@ SetWindowText(caption);
 
 void CAeroPanelDlg::MakeAeroOrBlur()
 {
-	if (m_trywin10 && m_use_aero)
-	{
-		m_trywin10 = false;
-		m_use_aero = false;
-	}
 	m_trywin10 = ToggleWin10Blur(m_hWnd, m_trywin10);
+	if (m_trywin10) m_use_aero = false;
 	m_use_aero = ToggleWin7Aero(m_hWnd, m_use_aero);
 	AdjustBack();
 }

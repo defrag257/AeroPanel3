@@ -1,0 +1,35 @@
+﻿生成启动时间为 2016/9/21 22:57:18。
+     1>项目“D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\AeroPanel\AeroPanel.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\AeroPanel3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\AeroPanel3.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\AeroPanel3.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AeroPanel.cpp AeroPanelDlg.cpp
+         AeroPanel.cpp
+         AeroPanelDlg.cpp
+     1>AeroPanelDlg.cpp(469): warning C4244: “-=”: 从“float”转换到“LONG”，可能丢失数据
+     1>AeroPanelDlg.cpp(473): warning C4244: “+=”: 从“float”转换到“LONG”，可能丢失数据
+     1>AeroPanelDlg.cpp(477): warning C4244: “-=”: 从“float”转换到“LONG”，可能丢失数据
+     1>AeroPanelDlg.cpp(481): warning C4244: “+=”: 从“float”转换到“LONG”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\AeroPanel.res" AeroPanel.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\Release\AeroPanel3.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\AeroPanel3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\Release\AeroPanel3.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\Release\AeroPanel3.lib" /MACHINE:X86 Release\AeroPanel.res
+         Release\AeroPanel.obj
+         Release\AeroPanelDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+     1>d:\users\pc\documents\visual studio 2010\projects\aeropanel3\aeropanel\aeropaneldlg.cpp(216): warning C4715: “ToggleWin7Aero”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         AeroPanel.vcxproj -> D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\Release\AeroPanel3.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\Release\AeroPanel3.exe;#1" /manifest Release\AeroPanel3.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\AeroPanel3.unsuccessfulbuild”。
+         正在对“Release\AeroPanel3.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Users\pc\Documents\Visual Studio 2010\Projects\AeroPanel3\AeroPanel\AeroPanel.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.19
